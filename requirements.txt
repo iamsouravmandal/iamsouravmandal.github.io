@@ -143,7 +143,6 @@ pyOpenSSL==24.1.0
 pyreadline3==3.4.1
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
-pywin32==306
 PyYAML==6.0.1
 requests==2.32.3
 requests-oauthlib==2.0.0
