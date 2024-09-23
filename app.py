@@ -1,3 +1,9 @@
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # Get the port from the environment or use 5000 by default
+    app.run(host="0.0.0.0", port=port)  # Bind to the $PORT environment variable and allow external connections
+
 from flask import Flask, render_template
 
 app = Flask(__name__)
